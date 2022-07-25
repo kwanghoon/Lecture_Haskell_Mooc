@@ -104,8 +104,62 @@ move
     ghci> 
   
 
+  - GHCi 명령어 
+
+    :load <파일이름>.hs
+    :reload
+
+    :type <식>
+
+    :{ 
+
+     <여러 줄을 입력>
+
+    :}
+
+    :?      ===> GHCi 명령어 목록 출력
+
+==================================================
+4) 하스켈 IDE(Integrated Development Environement) 
+==================================================
+
+ - (Microsoft) Visual Studio Code
+
+ - 구글: visual studio code 검색 -> 웹 사이트로 이동 -> Download ->
+   (윈도우즈) System용 64비트 다운받아 설치
+
+ - 왼쪽 맨 하단 (박스 4개 모양의 아이콘) Extension을 선택하여 하스켈
+   프로래밍 환경을 위한 플러그인들을 설치합니다.
+
+    1) Haskell을 검색해서 install 버튼을 눌러 Haskell 플러그인 설치
+       (Haskell Syntax Hightlighting 플러그인이 함께 자동으로 설치됩니다)
+
+    2) Hasskelly를 검색해서 install 버튼을 눌러 Haskell 플러그인 설치
+
+ - VS code를 실행
+
+ - Open Folder를 새로 만들어 작업 디렉토리를 엽니다. (예: D:\work\haskell\lecture1)
+
+ - Terminal -> New Terminal을 선택하여 VS code 안에서 Powershell을 실행합니다. 
+   (실행된 파워쉘 안에서 stack exec -- ghci를 실행해서 하스켈 식을 입력하고 실행할 수 있습니다.)
+
+ - 열린 폴더 안에서 Example.hs 파일을 만들고 간단한 하스켈 식을 작성한 다음 
+   파워쉘에서 
+
+     :load Example.hs
+
+   로 이 내용을 불러드릴 수 있습니다.
+
+   이 파일을 다시 편집하고 다시 불러들일 때는 파일 이름을 입력하지 않고 
+
+     :reload
+
+   만 치면 됩니다.
+
+
+
 ===============================
-4) 하스켈 무크 사이트에 접속하기 
+5) 하스켈 무크 사이트에 접속하기 
 ===============================
 
   - 구글에서 haskell mooc로 검색해서 Haskell MOOC 사이트로 이동
@@ -132,7 +186,7 @@ move
 
 
 ===============
-5) 공부 시작하기 
+6) 공부 시작하기 
 ===============
 
  - Part1 - Lecture1 부터 동영상과 하스켈 무크 웹 사이트에 따라 공부하기!
@@ -141,7 +195,7 @@ move
 
 
 ===============
-6) Git, Github
+7) Git, Github
 ===============
 
  - Git
