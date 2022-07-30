@@ -157,3 +157,60 @@ n! = n * (n-1) * ... * 2 * 1
    fibonacci 2 = 1
    fibonacci n = fibonacci (n-1) + fibonacci (n-2)
 
+
+1.13 Working on the Exercises
+
+ 아래 git 명령어를 통해 핀란드 대학에서 제공하는 haskell-mooc 깃 저장소를 
+ 본인 로컬 컴퓨터에 클론/복제 내려받으세요.
+
+  - 작업 디렉토리 (예: D:\work\haskell\)로 이동하신 다음 아래 깃 명령어를 수행 (cd D:\work\haskell)
+
+  - git clone https://github.com/moocfi/haskell-mooc
+
+  - cd haskell-mooc
+
+$ ls
+CONTRIBUTING.md  LICENSE  README.md  exercises  img  part1.html  part2.html  style.css
+
+$ cd exercises/
+
+$ ls
+Examples       Set11b.hs      Set14aTest.hs  Set1Test.hs   Set4a.hs      Set6Test.hs   score.json
+Mooc           Set11bTest.hs  Set14b.hs      Set2a.hs      Set4aTest.hs  Set7.hs       stack.yaml
+Set1.hs        Set12.hs       Set14bTest.hs  Set2aTest.hs  Set4b.hs      Set7Test.hs   stack.yaml.lock
+Set10a.hs      Set12Test.hs   Set15.hs       Set2b.hs      Set4bTest.hs  Set8.hs       tests.cabal
+Set10aTest.hs  Set13a.hs      Set15Test.hs   Set2bTest.hs  Set5a.hs      Set8Test.hs
+Set10b.hs      Set13aTest.hs  Set16a.hs      Set3a.hs      Set5aTest.hs  Set9a.hs
+Set10bTest.hs  Set13b.hs      Set16aTest.hs  Set3aTest.hs  Set5b.hs      Set9aTest.hs
+Set11a.hs      Set13bTest.hs  Set16b.hs      Set3b.hs      Set5bTest.hs  Set9b.hs
+Set11aTest.hs  Set14a.hs      Set16bTest.hs  Set3bTest.hs  Set6.hs       Set9bTest.hs
+
+
+$ ls Set1.hs
+Set1.hs
+
+$ ls Set1Test.hs
+Set1Test.hs
+
+
+  - Set1.hs가 연습문제 파일이고
+  - Set1Test.hs가 연습문제 풀이가 맞았는지 확인해주는 테스트 파일입니다.
+
+
+ Set1.hs의 기존 내용을 최대한 변경하지 않고 필요한 부분만 변경해서 문제를 푸세요.
+
+  - 변경 가능한 부분 : 새로운 줄을 추가해서 작성
+                  todo라고 되어 있는 부분을 지우고 작성 
+                  등등 
+
+ Set1.hs를 작성하신 다음 아래 명령어로 답을 맞춰보세요.
+
+  - stack runhaskell Set1Test.sh
+
+ Set1에 11문제중 하나씩 풀고 위 명령어로 답을 맞춰보는 점신적으로 진행하세요.
+  - 중간에 풀기 어려운 문제가 있으면 일단 다음 문제로 넘어가도 됩니다. 
+
+ stack runhaskell Set1Test.hs 
+
+
+
