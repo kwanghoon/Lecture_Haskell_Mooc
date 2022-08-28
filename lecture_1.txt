@@ -63,7 +63,7 @@ Lecture 1
 
          어떤 타입의 값을 화면에 출력하려면 print 함수가 필요. 
 
-         (위 데수적 데이터타입의) deriving Show는 여러분의 데이터
+         (위 대수적 데이터타입의) deriving Show는 여러분의 데이터
          타입에 대해 자동으로 print 함수를 만들어주는 기능
 
          data Character = Pororo | Pokemon | Unknown
